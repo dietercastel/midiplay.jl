@@ -1,0 +1,18 @@
+How to use BiVib with Native Instruments Kontakt 5 Player
+----------------------------------------------------------
+
+1. Create a new folder (for example, 'BiVib'). 
+2. Extract into it the archive 'BiVib_Kontakt.7z' -> Various folders 
+(e.g., ‘Instruments’, ‘Multis’) are created. 
+3. Extract the multi-part archive 'Samples.7z.### -> A folder ‘Samples’ is 
+created. 
+4. Load the .nkm or .nki file(s) of your choice from the folders 'Multis' or 
+'Instruments'
+
+Notice that multis combine one binaural instrument (for example, 'Binaural Grand
+[lid open]') with its corresponding vibration instrument (in this case,
+'Vibration Grand') and route their outputs to 3 virtual outputs in Kontakt: a
+stereo channel (outputs 1-2) for binaural signals, and a mono channel (output 3)
+for vibration signals. It's then up to you to further route those channels to
+some physical outputs of your audio interface, respectively to feed headphones
+and vibration actuators.

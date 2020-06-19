@@ -1,0 +1,3 @@
+# run aseqdump -l and get the Port name to enter it here:
+dnew 0 "UM-1 MIDI 1" ro  # mount the roland keyboard as Read Only for recording.
+dnew 0 "UM-1 MIDI 1" wo  # mount the roland keyboard as Write Only for playing.
